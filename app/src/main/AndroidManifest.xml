@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Proyecto_final"
         tools:targetApi="31">
         <activity
+            android:name=".RuletaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarMascotaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntegrantesActivity"
+            android:exported="false" />
+        <activity
             android:name=".CrearPerfilActivity"
             android:exported="false" />
         <activity
